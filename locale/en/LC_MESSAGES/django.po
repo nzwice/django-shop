@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-17 16:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cart/templates/cart/detail.html:75
+#: shop/templates/shop/product/detail.html:26
+msgid "People who bought this also bought"
+msgstr ""
+
+#: django_shop/settings.py:127
+msgid "English"
+msgstr ""
+
+#: django_shop/settings.py:128
+msgid "Vietnamese"
+msgstr ""
+
+#: shop/templates/shop/base.html:10 shop/templates/shop/base.html:21
+msgid "Lee's EShop"
+msgstr ""
+
+#: shop/templates/shop/base.html:24
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:40
+msgid "Your cart:"
+msgstr ""
+
+#: shop/templates/shop/base.html:46
+msgid "Your cart is empty."
+msgstr ""
+
+#: shop/templates/shop/product/list.html:5
+#: shop/templates/shop/product/list.html:22
+msgid "Products"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:9
+msgid "Categories"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:12
+msgid "All"
+msgstr ""

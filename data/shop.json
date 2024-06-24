@@ -1,0 +1,197 @@
+{
+    "products": [
+        {
+            "name": "Wireless Mouse",
+            "description": "A sleek wireless mouse with ergonomic design.",
+            "slug": "wireless-mouse",
+            "category_slug": "electronics",
+            "available": true,
+            "price": 25.99,
+            "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+        },
+        {
+            "name": "Gaming Keyboard",
+            "description": "Mechanical keyboard with customizable RGB lighting.",
+            "slug": "gaming-keyboard",
+            "category_slug": "electronics",
+            "available": true,
+            "price": 79.99,
+            "image_url": "https://images.unsplash.com/photo-1569087917254-ff0702b9f31e"
+        },
+        {
+            "name": "Bluetooth Speaker",
+            "description": "Portable speaker with high-quality sound.",
+            "slug": "bluetooth-speaker",
+            "category_slug": "electronics",
+            "available": true,
+            "price": 49.99,
+            "image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439"
+        },
+        {
+            "name": "4K Monitor",
+            "description": "Ultra HD monitor with stunning visuals.",
+            "slug": "4k-monitor",
+            "category_slug": "electronics",
+            "available": false,
+            "price": 299.99,
+            "image_url": "https://images.unsplash.com/photo-1601933472727-06720ef4b42d"
+        },
+        {
+            "name": "Yoga Mat",
+            "description": "Eco-friendly yoga mat with non-slip surface.",
+            "slug": "yoga-mat",
+            "category_slug": "fitness",
+            "available": true,
+            "price": 19.99,
+            "image_url": "https://images.unsplash.com/photo-1600880291784-22b313e653a6"
+        },
+        {
+            "name": "Dumbbell Set",
+            "description": "Adjustable dumbbells for versatile workouts.",
+            "slug": "dumbbell-set",
+            "category_slug": "fitness",
+            "available": true,
+            "price": 59.99,
+            "image_url": "https://images.unsplash.com/photo-1583454110551-21cac1e35cf0"
+        },
+        {
+            "name": "Treadmill",
+            "description": "Compact treadmill with various workout modes.",
+            "slug": "treadmill",
+            "category_slug": "fitness",
+            "available": true,
+            "price": 499.99,
+            "image_url": "https://images.unsplash.com/photo-1559670218-d1b6c46a3a34"
+        },
+        {
+            "name": "Running Shoes",
+            "description": "Lightweight running shoes with great cushioning.",
+            "slug": "running-shoes",
+            "category_slug": "fitness",
+            "available": true,
+            "price": 89.99,
+            "image_url": "https://images.unsplash.com/photo-1552162619-8d6991a10a58"
+        },
+        {
+            "name": "Smartwatch",
+            "description": "Smartwatch with fitness tracking and notifications.",
+            "slug": "smartwatch",
+            "category_slug": "electronics",
+            "available": true,
+            "price": 199.99,
+            "image_url": "https://images.unsplash.com/photo-1517414204284-a7e1e5acc7a9"
+        },
+        {
+            "name": "Electric Toothbrush",
+            "description": "Electric toothbrush with multiple brushing modes.",
+            "slug": "electric-toothbrush",
+            "category_slug": "personal-care",
+            "available": true,
+            "price": 39.99,
+            "image_url": "https://images.unsplash.com/photo-1556228722-c2d8a6b9a3d2"
+        },
+        {
+            "name": "Hair Dryer",
+            "description": "Powerful hair dryer with fast drying technology.",
+            "slug": "hair-dryer",
+            "category_slug": "personal-care",
+            "available": true,
+            "price": 29.99,
+            "image_url": "https://images.unsplash.com/photo-1586773860413-2990e7a27b69"
+        },
+        {
+            "name": "Facial Cleanser",
+            "description": "Gentle facial cleanser for all skin types.",
+            "slug": "facial-cleanser",
+            "category_slug": "personal-care",
+            "available": true,
+            "price": 14.99,
+            "image_url": "https://images.unsplash.com/photo-1590737057480-d2075e6ed7b3"
+        },
+        {
+            "name": "Digital Camera",
+            "description": "High-resolution digital camera with multiple lenses.",
+            "slug": "digital-camera",
+            "category_slug": "electronics",
+            "available": true,
+            "price": 499.99,
+            "image_url": "https://images.unsplash.com/photo-1519183071298-a2962e38c099"
+        },
+        {
+            "name": "Blender",
+            "description": "High-speed blender for smoothies and soups.",
+            "slug": "blender",
+            "category_slug": "home-appliances",
+            "available": true,
+            "price": 89.99,
+            "image_url": "https://images.unsplash.com/photo-1586201375753-1bc5d3fd553e"
+        },
+        {
+            "name": "Vacuum Cleaner",
+            "description": "Bagless vacuum cleaner with powerful suction.",
+            "slug": "vacuum-cleaner",
+            "category_slug": "home-appliances",
+            "available": true,
+            "price": 129.99,
+            "image_url": "https://images.unsplash.com/photo-1606704309897-0ec0b3fcf3f9"
+        },
+        {
+            "name": "Coffee Maker",
+            "description": "Automatic coffee maker with programmable settings.",
+            "slug": "coffee-maker",
+            "category_slug": "home-appliances",
+            "available": true,
+            "price": 59.99,
+            "image_url": "https://images.unsplash.com/photo-1544885935-c4e54f3c9732"
+        },
+        {
+            "name": "Air Fryer",
+            "description": "Air fryer for healthy and crispy meals.",
+            "slug": "air-fryer",
+            "category_slug": "home-appliances",
+            "available": true,
+            "price": 99.99,
+            "image_url": "https://images.unsplash.com/photo-1610032276134-39468b6a038b"
+        },
+        {
+            "name": "Lawn Mower",
+            "description": "Electric lawn mower with adjustable cutting height.",
+            "slug": "lawn-mower",
+            "category_slug": "garden-tools",
+            "available": true,
+            "price": 249.99,
+            "image_url": "https://images.unsplash.com/photo-1582560473068-4fe03e6c6be4"
+        },
+        {
+            "name": "Garden Hose",
+            "description": "Flexible and durable garden hose with nozzle.",
+            "slug": "garden-hose",
+            "category_slug": "garden-tools",
+            "available": true,
+            "price": 29.99,
+            "image_url": "https://images.unsplash.com/photo-1559235038-1b649e75b84b"
+        }
+    ],
+    "categories": [
+        {
+            "slug": "electronics",
+            "name": "Electronics"
+        },
+        {
+            "slug": "fitness",
+            "name": "Fitness"
+        },
+        {
+            "slug": "home-appliances",
+            "name": "Home Appliances"
+        },
+        {
+            "slug": "personal-care",
+            "name": "Personal Care"
+        },
+        {
+            "slug": "garden-tools",
+            "name": "Garden Tools"
+        }
+    ]
+}

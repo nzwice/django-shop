@@ -1,0 +1,106 @@
+name: django-shop-lee
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    restart: always
+    ports:
+      - ${RABBITMQ_PORT}:5672
+      - ${RAMMITMQ_ADMIN_PORT}:15672
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 1m
+      retries: 5
+
+  redis:
+    image: redis:7.2.3-alpine3.19
+    restart: always
+    ports:
+      - ${REDIS_PORT}:6379
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["redis-cli", ping]
+      interval: 5s
+      timeout: 1m
+      retries: 5
+
+  stripe:
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile-stripe
+    command: ["/app/run.sh", "dev_stripe"]
+    volumes:
+      - ../.env:/app/.env
+    environment:
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  db:
+    image: postgres:14-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["pg_isready"]
+      interval: 5s
+      timeout: 1m
+      retries: 5
+
+  server:
+    restart: unless-stopped
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile-server
+    ports:
+      - ${SERVER_PORT}:8000
+    volumes:
+      - ../:/app
+    command: ["/app/.docker/run.sh", "dev_server"]
+    depends_on:
+      - db
+      - rabbitmq
+      - redis
+      - stripe
+      - server-worker
+
+  server-worker:
+    restart: unless-stopped
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile-server
+    volumes:
+      - ../:/app
+    command: ["/app/.docker/run.sh", "dev_worker"]
+    depends_on:
+      - rabbitmq
+      - redis
+
+  celery-flower:
+    restart: unless-stopped
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile-server
+    volumes:
+      - ../:/app
+    ports:
+      - ${CELERY_FLOWER_PORT}:5555
+    command: ["/app/.docker/run.sh", "dev_flower"]
+    depends_on:
+      - rabbitmq
+      - redis
+
+volumes:
+  rabbitmq-data:
+  redis-data:
+  postgres-data:

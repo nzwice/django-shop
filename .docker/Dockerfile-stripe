@@ -1,0 +1,9 @@
+FROM stripe/stripe-cli:v1.19.1
+
+WORKDIR /app
+COPY .docker/run.sh /app/run.sh
+
+RUN apk add --no-cache --upgrade bash dotenv
+
+RUN chmod +x /app/run.sh
+ENTRYPOINT [ "/app/run.sh" ]

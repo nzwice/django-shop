@@ -1,0 +1,1841 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-12-14T00:04:12.160Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Tea",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-12-14T00:05:49.379Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "VN Green Tea",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-12-14T00:50:51.841Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "VN Green Tea",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-12-15T15:21:51.639Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Starbucks Matcha Latte",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-12-15T15:22:07.649Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Starbucks Matcha Latte",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-12-19T15:43:08.322Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Order #1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"order item\", \"object\": \"Order #1 - Item 1\"}}, {\"added\": {\"name\": \"order item\", \"object\": \"Order #1 - Item 2\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-01-07T11:04:59.844Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "C12AJBD",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-01-07T15:52:09.328Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "C40OFF",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.067Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "21",
+            "object_repr": "Garden Hose ($29.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.069Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "20",
+            "object_repr": "Lawn Mower ($249.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.071Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "19",
+            "object_repr": "Air Fryer ($99.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.072Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Coffee Maker ($59.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.074Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "17",
+            "object_repr": "Vacuum Cleaner ($129.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.075Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "16",
+            "object_repr": "Blender ($89.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.077Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "15",
+            "object_repr": "Digital Camera ($499.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.079Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "14",
+            "object_repr": "Facial Cleanser ($14.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-06-13T14:49:27.081Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "13",
+            "object_repr": "Hair Dryer ($29.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-06-13T14:56:30.796Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Starbucks Matcha Latte ($30.00)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-06-13T14:57:24.617Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "VN Green Tea ($20.00)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-06-13T15:12:11.205Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "12",
+            "object_repr": "Electric Toothbrush ($39.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-06-13T15:12:11.208Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "11",
+            "object_repr": "Smartwatch ($199.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-06-13T15:12:11.209Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Running Shoes ($89.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-06-13T15:12:11.210Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "Treadmill ($499.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2024-06-13T15:12:11.212Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Dumbbell Set ($59.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2024-06-14T11:57:18.519Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "Treadmill ($499.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2024-06-14T12:03:19.004Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "Yoga Mat ($19.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2024-06-14T12:03:19.005Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "4K Monitor ($299.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2024-06-14T12:03:19.007Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "Bluetooth Speaker ($49.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2024-06-14T12:03:19.008Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Gaming Keyboard ($79.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2024-06-14T12:03:19.009Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Wireless Mouse ($25.99)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add category",
+            "content_type": 7,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change category",
+            "content_type": 7,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete category",
+            "content_type": 7,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view category",
+            "content_type": 7,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add product",
+            "content_type": 8,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change product",
+            "content_type": 8,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete product",
+            "content_type": 8,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view product",
+            "content_type": 8,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add order",
+            "content_type": 9,
+            "codename": "add_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change order",
+            "content_type": 9,
+            "codename": "change_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete order",
+            "content_type": 9,
+            "codename": "delete_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view order",
+            "content_type": 9,
+            "codename": "view_order"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add order item",
+            "content_type": 10,
+            "codename": "add_orderitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change order item",
+            "content_type": 10,
+            "codename": "change_orderitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete order item",
+            "content_type": 10,
+            "codename": "delete_orderitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view order item",
+            "content_type": 10,
+            "codename": "view_orderitem"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add coupon",
+            "content_type": 11,
+            "codename": "add_coupon"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change coupon",
+            "content_type": 11,
+            "codename": "change_coupon"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete coupon",
+            "content_type": 11,
+            "codename": "delete_coupon"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view coupon",
+            "content_type": 11,
+            "codename": "view_coupon"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$6E0KkNtyeT2JwxmEEuNV4g$vICM+lDBEm4URbIQ/nTDMil+iWyeB/jE3O/RlEQmqLQ=",
+            "last_login": "2024-06-13T13:22:21.756Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@example.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-12-14T00:03:17.660Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "shop",
+            "model": "category"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "shop",
+            "model": "product"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "orders",
+            "model": "order"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "orders",
+            "model": "orderitem"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "coupons",
+            "model": "coupon"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "4lgl7knhghz554eszqqzl87xfdc3hfmy",
+        "fields": {
+            "session_data": ".eJx9jkEOgyAQRe8ya0MUBMFl9z0DGQErbaMt4KIx3r3QuHHTzUwy7-X_2cBgSNBvwMp4rzgnnz7QNxW8gjdOxxSgB8qJUrBXIP5rSv28LGpc06TX6IL2NqMGTrcBzcPNBdg7zreFmGVOwQ-kKOSgkVwX656Xwz0FTBin0jgOI2O0QYfMKqEc43Rs8x_WGVczIZWRiJR3nWyF7VDUcug4MywvqayB_QuvFFKo:1sI645:Fz5LHEzYZKbE38Wqcf2n2Dfs8TckMXnYNHtAE1z5a8M",
+            "expire_date": "2024-06-28T12:29:57.761Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "drzyww7uan2d337327ftxrm50faezm7n",
+        "fields": {
+            "session_data": "eyJjYXJ0Ijp7fX0:1rQ8ui:fe4emG4Wy2_ahuMH_9QIN9OSCzcGHT4goWk5Hysrec4",
+            "expire_date": "2024-01-31T16:37:16.385Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gusulu3o1a9oyl6hfl47e0tq1ju0gnbg",
+        "fields": {
+            "session_data": ".eJxVjDsOgzAQRO_iOrLAC_5Qps8Z0Hp3CSQRlmyoEHcPSDRUI703M5tKmSX3E6uu9g_V47qM_VoupGp1YxHpK_Mp-IPzO2lK85KnqM-KvmzRr8Tye17d28GIZTzWZogDgKlREDjYINCaoTEhsJBUYH0gj2ha53xj2aGtfHQtEBzhA9NxSpgX1W37_gdd5j9p:1rSK0o:bqajtPZOXArXQ0DQb6lhaza_hHka1QO78qeX9IvC_AE",
+            "expire_date": "2024-02-06T16:52:34.470Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "hrf50vzwh4piyy1mps5gmbj08z84njgn",
+        "fields": {
+            "session_data": ".eJxVjssOgyAQRf-FtSEIPsBl9_0GMg5YbRuwPBaN8d-LjYt2M5PMuXNzNqIhp1nnaINeDBlITarf2wj4sO4A5g7u5il6l8Iy0iNCTxrp1Rv7vJzZv4IZ4ly--TROQvAaLAijOmVFy6eGK2UsWiY6qVAC8LbvZdOZHjomx74VKMqSymApRZ9X776WvCI-mFO5FoVBSGTYin0ZrwwuLeldUEXWsKDVMYVDglHGyL7vHwhjT34:1rNbKh:Tis9xFxYjxY7gChRV_7mrT2BEGGD9pEPG_AgIfbO-lE",
+            "expire_date": "2024-01-24T16:21:35.001Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "k43chkpkoe5ze2fu2crodhg1y3cs1qlo",
+        "fields": {
+            "session_data": ".eJxVjDsOg0AMRO_iOlrBGvZDmT5nQF7bBJIIJBYqxN0DEg3VSPPezAZM8wLNtj-gpXXp2zXr3A4CDZRw6xLxV8cTyIfG92R4Gpd5SOZUzEWzeU2iv-fl3g56yv2xtl3qEG1JSijRRcXadpWNUZS1QBciByJbex8qJ55cEZKvkfGIEIVh_wMt1DsO:1sI6ZA:47Usr6GRQjd-I-EtUHq4YMok-aeFsZK6jixuSR4KR4k",
+            "expire_date": "2024-06-28T13:02:04.106Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "l78e54gl5d35hf3gcfwid62d1w96krit",
+        "fields": {
+            "session_data": ".eJxVjDsOg0AMRO_iOlrBGvZDmT5nQF7bBJIIJBYqxN0DEg3VSPPezAZM8wLNtj-gpXXp2zXr3A4CDZRw6xLxV8cTyIfG92R4Gpd5SOZUzEWzeU2iv-fl3g56yv2xtl3qEG1JSijRRcXadpWNUZS1QBciByJbex8qJ55cEZKvkfGIEIVh_wMt1DsO:1sFmYg:O4upQywj7-3JF5ENF8YdW2D3c_5MWl9Gv6mXYTlogB0",
+            "expire_date": "2024-06-22T03:15:58.571Z"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "name": "Tea",
+            "slug": "tea"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 2,
+        "fields": {
+            "name": "Electronics",
+            "slug": "electronics"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 3,
+        "fields": {
+            "name": "Fitness",
+            "slug": "fitness"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 4,
+        "fields": {
+            "name": "Home Appliances",
+            "slug": "home-appliances"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 5,
+        "fields": {
+            "name": "Personal Care",
+            "slug": "personal-care"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 6,
+        "fields": {
+            "name": "Garden Tools",
+            "slug": "garden-tools"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "VN Green Tea",
+            "slug": "vn-green-tea",
+            "image": "products/2024/06/13/vn-green-tea.png",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price": "20.00",
+            "available": true,
+            "created": "2023-12-14T00:05:49.377Z",
+            "updated": "2024-06-13T14:57:24.617Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "Starbucks Matcha Latte",
+            "slug": "starbucks-matcha-latte",
+            "image": "products/2024/06/13/starbucks-matcha-latte.png",
+            "description": "This Starbucks copycat matcha latte is the perfect balance of earthy, creamy, sweet flavor. It's so simple to make, just lightly sweetened and costs only a fraction of the price to make.",
+            "price": "30.00",
+            "available": true,
+            "created": "2023-12-15T15:21:51.636Z",
+            "updated": "2024-06-13T14:56:30.795Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "category": 2,
+            "name": "Wireless Mouse",
+            "slug": "wireless-mouse",
+            "image": "products/2024/06/14/wireless-mouse.jpg",
+            "description": "A sleek wireless mouse with ergonomic design.",
+            "price": "25.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.054Z",
+            "updated": "2024-06-14T12:03:19.009Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "category": 2,
+            "name": "Gaming Keyboard",
+            "slug": "gaming-keyboard",
+            "image": "products/2024/06/14/gaming-keyboard.jpg",
+            "description": "Mechanical keyboard with customizable RGB lighting.",
+            "price": "79.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.057Z",
+            "updated": "2024-06-14T12:03:19.007Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "category": 2,
+            "name": "Bluetooth Speaker",
+            "slug": "bluetooth-speaker",
+            "image": "products/2024/06/14/bluetooth-speaker.jpg",
+            "description": "Portable speaker with high-quality sound.",
+            "price": "49.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.060Z",
+            "updated": "2024-06-14T12:03:19.007Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "category": 2,
+            "name": "4K Monitor",
+            "slug": "4k-monitor",
+            "image": "products/2024/06/14/4k-monitor.jpg",
+            "description": "Ultra HD monitor with stunning visuals.",
+            "price": "299.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.064Z",
+            "updated": "2024-06-14T12:03:19.005Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "category": 3,
+            "name": "Yoga Mat",
+            "slug": "yoga-mat",
+            "image": "products/2024/06/14/yoga-mat.jpg",
+            "description": "Eco-friendly yoga mat with non-slip surface.",
+            "price": "19.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.068Z",
+            "updated": "2024-06-14T12:03:19.004Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 8,
+        "fields": {
+            "category": 3,
+            "name": "Dumbbell Set",
+            "slug": "dumbbell-set",
+            "image": "products/2024/06/13/dumbbell-set.png",
+            "description": "Adjustable dumbbells for versatile workouts.",
+            "price": "59.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.070Z",
+            "updated": "2024-06-13T15:12:11.211Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 9,
+        "fields": {
+            "category": 3,
+            "name": "Treadmill",
+            "slug": "treadmill",
+            "image": "products/2024/06/14/treadmill.jpg",
+            "description": "Compact treadmill with various workout modes.",
+            "price": "499.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.072Z",
+            "updated": "2024-06-14T11:57:18.518Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 10,
+        "fields": {
+            "category": 3,
+            "name": "Running Shoes",
+            "slug": "running-shoes",
+            "image": "products/2024/06/13/running-shoes.png",
+            "description": "Lightweight running shoes with great cushioning.",
+            "price": "89.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.074Z",
+            "updated": "2024-06-13T15:12:11.209Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 11,
+        "fields": {
+            "category": 2,
+            "name": "Smartwatch",
+            "slug": "smartwatch",
+            "image": "products/2024/06/13/smart-watch.png",
+            "description": "Smartwatch with fitness tracking and notifications.",
+            "price": "199.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.079Z",
+            "updated": "2024-06-13T15:12:11.208Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 12,
+        "fields": {
+            "category": 5,
+            "name": "Electric Toothbrush",
+            "slug": "electric-toothbrush",
+            "image": "products/2024/06/13/electronic-toothbrush.jpeg",
+            "description": "Electric toothbrush with multiple brushing modes.",
+            "price": "39.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.082Z",
+            "updated": "2024-06-13T15:12:11.203Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 13,
+        "fields": {
+            "category": 5,
+            "name": "Hair Dryer",
+            "slug": "hair-dryer",
+            "image": "products/2024/06/13/hair-dryer.png",
+            "description": "Powerful hair dryer with fast drying technology.",
+            "price": "29.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.084Z",
+            "updated": "2024-06-13T14:49:27.081Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 14,
+        "fields": {
+            "category": 5,
+            "name": "Facial Cleanser",
+            "slug": "facial-cleanser",
+            "image": "products/2024/06/13/facial-cleanser.png",
+            "description": "Gentle facial cleanser for all skin types.",
+            "price": "14.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.086Z",
+            "updated": "2024-06-13T14:49:27.078Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 15,
+        "fields": {
+            "category": 2,
+            "name": "Digital Camera",
+            "slug": "digital-camera",
+            "image": "products/2024/06/13/digital-camera.png",
+            "description": "High-resolution digital camera with multiple lenses.",
+            "price": "499.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.087Z",
+            "updated": "2024-06-13T14:49:27.076Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 16,
+        "fields": {
+            "category": 4,
+            "name": "Blender",
+            "slug": "blender",
+            "image": "products/2024/06/13/blender.png",
+            "description": "High-speed blender for smoothies and soups.",
+            "price": "89.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.089Z",
+            "updated": "2024-06-13T14:49:27.075Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 17,
+        "fields": {
+            "category": 4,
+            "name": "Vacuum Cleaner",
+            "slug": "vacuum-cleaner",
+            "image": "products/2024/06/13/vacuum-cleaner.png",
+            "description": "Bagless vacuum cleaner with powerful suction.",
+            "price": "129.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.092Z",
+            "updated": "2024-06-13T14:49:27.073Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 18,
+        "fields": {
+            "category": 4,
+            "name": "Coffee Maker",
+            "slug": "coffee-maker",
+            "image": "products/2024/06/13/coffee-maker.png",
+            "description": "Automatic coffee maker with programmable settings.",
+            "price": "59.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.096Z",
+            "updated": "2024-06-13T14:49:27.072Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 19,
+        "fields": {
+            "category": 4,
+            "name": "Air Fryer",
+            "slug": "air-fryer",
+            "image": "products/2024/06/13/air-fryer.png",
+            "description": "Air fryer for healthy and crispy meals.",
+            "price": "99.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.099Z",
+            "updated": "2024-06-13T14:49:27.070Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 20,
+        "fields": {
+            "category": 6,
+            "name": "Lawn Mower",
+            "slug": "lawn-mower",
+            "image": "products/2024/06/13/lawn-mower.png",
+            "description": "Electric lawn mower with adjustable cutting height.",
+            "price": "249.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.103Z",
+            "updated": "2024-06-13T14:49:27.069Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 21,
+        "fields": {
+            "category": 6,
+            "name": "Garden Hose",
+            "slug": "garden-hose",
+            "image": "products/2024/06/13/garden-hose.png",
+            "description": "Flexible and durable garden hose with nozzle.",
+            "price": "29.99",
+            "available": true,
+            "created": "2024-06-13T14:30:36.106Z",
+            "updated": "2024-06-13T14:49:27.066Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 1,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "Tran",
+            "email": "lee@example.com",
+            "address": "Street XYZ",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2023-12-19T15:43:08.319Z",
+            "updated": "2023-12-19T15:43:08.319Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 2,
+        "fields": {
+            "first_name": "Anh",
+            "last_name": "Nguyen",
+            "email": "tina@email.com",
+            "address": "Street PTH",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2023-12-19T16:22:50.367Z",
+            "updated": "2023-12-19T16:22:50.367Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 3,
+        "fields": {
+            "first_name": "Nguyen",
+            "last_name": "TQK",
+            "email": "ntqk@email.com",
+            "address": "St 5508",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2023-12-19T16:28:13.720Z",
+            "updated": "2023-12-19T16:28:13.720Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 4,
+        "fields": {
+            "first_name": "NT",
+            "last_name": "QK",
+            "email": "ntqk@example.com",
+            "address": "Cai Lay St",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-26T16:43:39.100Z",
+            "updated": "2023-12-26T16:43:39.100Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 5,
+        "fields": {
+            "first_name": "NT",
+            "last_name": "QK",
+            "email": "ntqk@mail.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-26T16:48:23.182Z",
+            "updated": "2023-12-26T16:48:23.182Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 6,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "Tran",
+            "email": "lee@test.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-27T03:48:27.797Z",
+            "updated": "2023-12-27T03:48:27.797Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 7,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "Hook",
+            "email": "hook@example.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-29T02:37:30.261Z",
+            "updated": "2023-12-29T02:37:30.262Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 8,
+        "fields": {
+            "first_name": "Hang",
+            "last_name": "Tran",
+            "email": "hang@example.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-29T02:42:18.829Z",
+            "updated": "2023-12-29T02:42:18.829Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 9,
+        "fields": {
+            "first_name": "Fri",
+            "last_name": "Hook",
+            "email": "fri@example.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-29T02:48:43.445Z",
+            "updated": "2023-12-29T02:48:43.446Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 10,
+        "fields": {
+            "first_name": "LeeM",
+            "last_name": "Tran",
+            "email": "lee@example.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-29T02:54:59.746Z",
+            "updated": "2023-12-29T02:55:37.290Z",
+            "paid": true,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 11,
+        "fields": {
+            "first_name": "LeeM2",
+            "last_name": "Tran",
+            "email": "leem2@example.com",
+            "address": "CL St.",
+            "postal_code": "500000",
+            "city": "TG",
+            "created": "2023-12-29T03:30:56.423Z",
+            "updated": "2023-12-29T03:31:51.020Z",
+            "paid": true,
+            "stripe_payment_intent": "pi_3OSWnZKffTh8r3521FOdNC7I",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 12,
+        "fields": {
+            "first_name": "LeeM",
+            "last_name": "M2",
+            "email": "test@example.com",
+            "address": "BC St.",
+            "postal_code": "500000",
+            "city": "HCM",
+            "created": "2024-01-02T16:05:03.054Z",
+            "updated": "2024-01-02T16:05:39.826Z",
+            "paid": true,
+            "stripe_payment_intent": "pi_3OUATFKffTh8r35204ZVJsz9",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 13,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "C",
+            "email": "lee@coupon.com",
+            "address": "HCMC",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2024-01-07T16:04:39.315Z",
+            "updated": "2024-01-07T16:09:33.535Z",
+            "paid": true,
+            "stripe_payment_intent": "pi_3OVyulKffTh8r3521y65MBfe",
+            "coupon": 2,
+            "discount": 40
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 14,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "S",
+            "email": "lee@stripe.com",
+            "address": "HCMC",
+            "postal_code": "7000000",
+            "city": "HCMC",
+            "created": "2024-01-17T16:20:20.210Z",
+            "updated": "2024-01-17T16:20:20.210Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 15,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "S",
+            "email": "lee@stripe.com",
+            "address": "HCMC",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2024-01-17T16:22:32.968Z",
+            "updated": "2024-01-17T16:22:32.968Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 16,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "S",
+            "email": "lee@stripe.com",
+            "address": "HCMC",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2024-01-17T16:29:27.345Z",
+            "updated": "2024-01-17T16:29:27.345Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 17,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "S",
+            "email": "lee@stripe.com",
+            "address": "HCMC",
+            "postal_code": "700000",
+            "city": "HCMC",
+            "created": "2024-01-17T16:40:37.948Z",
+            "updated": "2024-01-17T16:40:37.948Z",
+            "paid": false,
+            "stripe_payment_intent": "",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 18,
+        "fields": {
+            "first_name": "Lee",
+            "last_name": "S",
+            "email": "lee@stripe.com",
+            "address": "HCMC",
+            "postal_code": "7000000",
+            "city": "HCMC",
+            "created": "2024-01-17T16:44:41.928Z",
+            "updated": "2024-01-17T16:45:18.581Z",
+            "paid": true,
+            "stripe_payment_intent": "pi_3OZcElKffTh8r3521k92v1uj",
+            "coupon": null,
+            "discount": 0
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 1,
+        "fields": {
+            "order": 1,
+            "product": 2,
+            "price": "28.99",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 2,
+        "fields": {
+            "order": 1,
+            "product": 1,
+            "price": "15.98",
+            "quantity": 2
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 3,
+        "fields": {
+            "order": 2,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 4,
+        "fields": {
+            "order": 3,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 3
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 5,
+        "fields": {
+            "order": 4,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 6,
+        "fields": {
+            "order": 5,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 7,
+        "fields": {
+            "order": 6,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 3
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 8,
+        "fields": {
+            "order": 7,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 2
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 9,
+        "fields": {
+            "order": 8,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 10,
+        "fields": {
+            "order": 9,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 11,
+        "fields": {
+            "order": 10,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 12,
+        "fields": {
+            "order": 11,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 13,
+        "fields": {
+            "order": 12,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 3
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 14,
+        "fields": {
+            "order": 13,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 5
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 15,
+        "fields": {
+            "order": 14,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 16,
+        "fields": {
+            "order": 15,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 17,
+        "fields": {
+            "order": 16,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 18,
+        "fields": {
+            "order": 17,
+            "product": 1,
+            "price": "20.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "orders.orderitem",
+        "pk": 19,
+        "fields": {
+            "order": 18,
+            "product": 2,
+            "price": "30.00",
+            "quantity": 1
+        }
+    },
+    {
+        "model": "coupons.coupon",
+        "pk": 1,
+        "fields": {
+            "code": "C12AJBD",
+            "valid_from": "2024-01-07T11:04:43Z",
+            "valid_to": "2024-01-30T11:04:53Z",
+            "discount": 20,
+            "active": true
+        }
+    },
+    {
+        "model": "coupons.coupon",
+        "pk": 2,
+        "fields": {
+            "code": "C40OFF",
+            "valid_from": "2024-01-07T06:00:00Z",
+            "valid_to": "2024-01-09T06:00:00Z",
+            "discount": 40,
+            "active": true
+        }
+    }
+]

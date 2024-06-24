@@ -1,0 +1,26 @@
+include .env
+export
+
+worker:
+	find . -type f -name "*.py" | entr -r celery -A django_shop worker -l INFO
+
+server:
+	python manage.py runserver
+
+flower:
+	celery -A django_shop flower
+
+stripe-cli:
+	stripe listen --forward-to localhost:8000/payment/webhook/ --api-key ${STRIPE_CLI_API_KEY}
+
+redis-ui:
+	open /Applications/Another\ Redis\ Desktop\ Manager.app
+
+docker-up:
+	docker compose up -d
+
+compile-i18n:
+	find . -type f -name "django.po" | entr -r python manage.py compilemessages
+
+django-shell:
+	python manage.py shell -i ipython
