@@ -4,40 +4,42 @@ A modern E-Commerce application built with Python and Django.
 
 ## Architecture
 
-## DevOps Features
+## Features
 
 - [x] Isolated environment using Poetry and Dockerized images.
 - [x] The Twelve-Factor App: using environment variables to control configurations.
-- [x] Celery with RabbitMQ Broker & Redis Result Backend for queue processing.
-- [x] Celery Flower for Celery control plane.
+- [x] Celery with RabbitMQ Broker & Redis Result Backend for task and cron jobs.
+- [x] Celery Flower for monitoring and managing Celery clusters.
 - [x] Docker Compose for local development.
 - [ ] Live Chat Support using Django Channels over Websockets.
 - [ ] Security checklist: CSRF / XSS / COOP / HSTS / ALLOWED_HOSTS / CORS / SQL Injections
-- [ ] CI using Github Actions.
+- [ ] Continous Integration using Gitlab CI.
 - [ ] HTTPS using Let's Encrypt's SSL.
+- [x] Rate Limiting using Django.
 - [x] RDB using PostgreSQL
-- [x] Cache views and JSON responses using Redis
+- [ ] Cache views and JSON responses using Redis
 - [ ] Reversed Proxy using Nginx
 - [ ] Web Server using Gunicorn
-- [ ] Media Block Storage using S3
 - [ ] Cloudflare for CDN & DDOS protection.
 - [ ] Terraform for infrastructure provisioning.
-- [ ] CD with Ansible.
+- [ ] Continuous Deployment with Ansible.
 - [ ] Monitoring & Observability using Promentheuse & Grafana stack
-
-## Application Features
-
-- [x] Admin Management UI using Django defaults.
-- [x] Models: Product / Category / Cart / Coupon / Order / OrderItem / Payment / Customer (~) / Blog (~)
+- [x] Admin Management UI using Django defaults
 - [x] Order with discount
 - [x] Products recommendation
+- [x] Writing shop blogs
 - [x] Payment Gateway / Payment Webhook using Stripe.
-- [x] PDF/CSV generation and sending emails (console).
+- [x] PDF/CSV generation (CSV isn't ready)
+- [x] Prepare a set of banner images based on event.
+- [x] Email sending (console)
+- [ ] Database Locking & Transaction Processing
 - [ ] Rich Text Editor using CKE
-- [ ] OAuth2 for AuthN/AuthZ (Auth0)
+- [ ] Firebase Authentication integrated with Django Admin
+- [ ] Firebase Storage for media uploading
 - [x] DRF for RestAPIs
 - [ ] Automated Tests
 - [x] i18n: VN/EN
+- [ ] Cron jobs to auto reset DB
 
 ## How-to
 
