@@ -25,7 +25,7 @@ dev_server() {
 dev_stripe() {
     __dev_common
     __configure_stripe_webhook
-    stripe listen --forward-to "host.docker.internal:${SERVER_PORT}/en/payment/webhook/" --api-key "${STRIPE_SECRET_KEY}"
+    stripe listen --forward-to "host.docker.internal:${WEBHOOK_SERVER_PORT}/en/payment/webhook/" --api-key "${STRIPE_SECRET_KEY}"
 }
 
 dev_worker() {

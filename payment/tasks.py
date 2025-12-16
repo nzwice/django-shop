@@ -5,6 +5,7 @@ import weasyprint
 from orders.models import Order
 from django.core.mail import send_mail, EmailMessage
 from django.template.loader import render_to_string
+import os
 
 
 @shared_task
@@ -22,7 +23,8 @@ def payment_completed(order_id):
     html = render_to_string("orders/order/pdf.html", {"order": order})
     out = BytesIO()
     weasyprint.HTML(string=html).write_pdf(
-        out, stylesheets=[weasyprint.CSS(settings.STATIC_ROOT / "css/pdf.css")]
+        out,
+        stylesheets=[weasyprint.CSS(os.path.join(settings.STATIC_ROOT, "css/pdf.css"))],
     )  # attach PDF file
     email.attach(
         f"order_{order.id}.pdf", out.getvalue(), "application/pdf"  # type: ignore

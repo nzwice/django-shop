@@ -59,7 +59,7 @@ def payment_process(request: HttpRequest):
             )
             session_data["discounts"] = [{"coupon": stripe_coupon.id}]
         session = stripe.checkout.Session.create(**session_data)
-        return redirect(session.url, code=HTTPStatus.SEE_OTHER.value)
+        return redirect(session.url, code=HTTPStatus.SEE_OTHER.value)  # type: ignore
     else:
         return render(
             request,
