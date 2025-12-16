@@ -16,11 +16,17 @@ stripe-cli:
 redis-ui:
 	open /Applications/Another\ Redis\ Desktop\ Manager.app
 
-docker-up:
-	docker compose up -d
+compose-up:
+	docker compose -f .docker/compose.yml up -d
+
+compose-down:
+	docker compose -f .docker/compose.yml down
 
 compile-i18n:
 	find . -type f -name "django.po" | entr -r python manage.py compilemessages
+	
+makemessages:
+	python manage.py makemessages --all
 
 django-shell:
 	python manage.py shell -i ipython

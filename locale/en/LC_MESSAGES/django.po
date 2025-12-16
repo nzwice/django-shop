@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 16:08+0000\n"
+"POT-Creation-Date: 2024-11-17 09:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,43 +19,58 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: cart/templates/cart/detail.html:75
-#: shop/templates/shop/product/detail.html:26
+#: shop/templates/shop/product/detail.html:27
 msgid "People who bought this also bought"
 msgstr ""
 
-#: django_shop/settings.py:127
+#: django_shop/settings.py:135
 msgid "English"
 msgstr ""
 
-#: django_shop/settings.py:128
+#: django_shop/settings.py:136
 msgid "Vietnamese"
 msgstr ""
 
-#: shop/templates/shop/base.html:10 shop/templates/shop/base.html:21
+#: shop/templates/shop/base.html:12
 msgid "Lee's EShop"
 msgstr ""
 
-#: shop/templates/shop/base.html:24
-msgid "Language"
+#: shop/templates/shop/base.html:149
+msgid "Home"
 msgstr ""
 
-#: shop/templates/shop/base.html:40
+#: shop/templates/shop/base.html:153
+msgid "All Products"
+msgstr ""
+
+#: shop/templates/shop/base.html:171
+msgid "Coupons"
+msgstr ""
+
+#: shop/templates/shop/base.html:174
+msgid "About"
+msgstr ""
+
+#: shop/templates/shop/base.html:185
 msgid "Your cart:"
 msgstr ""
 
-#: shop/templates/shop/base.html:46
-msgid "Your cart is empty."
+#: shop/templates/shop/base.html:211
+msgid "Language"
 msgstr ""
 
 #: shop/templates/shop/product/list.html:5
-#: shop/templates/shop/product/list.html:22
 msgid "Products"
 msgstr ""
 
-#: shop/templates/shop/product/list.html:9
+#: shop/templates/shop/product/list.html:11
 msgid "Categories"
 msgstr ""
 
-#: shop/templates/shop/product/list.html:12
+#: shop/templates/shop/product/list.html:14
 msgid "All"
+msgstr ""
+
+#: shop/templates/shop/product/list.html:22
+msgid "Filter"
 msgstr ""

@@ -1,8 +1,6 @@
 FROM python:3.11
 
-RUN apt-get update && \
-    apt-get upgrade && \
-    apt-get install -y weasyprint gettext entr
+RUN apt-get update -y -q && apt-get install -y weasyprint gettext entr
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \

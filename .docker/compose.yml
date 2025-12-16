@@ -3,7 +3,7 @@ name: django-shop-lee
 services:
   rabbitmq:
     image: rabbitmq:3-management-alpine
-    restart: always
+    restart: unless-stopped
     ports:
       - ${RABBITMQ_PORT}:5672
       - ${RAMMITMQ_ADMIN_PORT}:15672
@@ -17,7 +17,7 @@ services:
 
   redis:
     image: redis:7.2.3-alpine3.19
-    restart: always
+    restart: unless-stopped
     ports:
       - ${REDIS_PORT}:6379
     volumes:
@@ -42,7 +42,7 @@ services:
 
   db:
     image: postgres:14-alpine
-    restart: always
+    restart: unless-stopped
     environment:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
