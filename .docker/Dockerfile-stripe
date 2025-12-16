@@ -1,4 +1,4 @@
-FROM stripe/stripe-cli:v1.19.1
+FROM stripe/stripe-cli:v1.33.2
 
 WORKDIR /app
 COPY .docker/run.sh /app/run.sh

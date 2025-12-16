@@ -37,6 +37,7 @@ services:
       - ../.env:/app/.env
     environment:
       - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+      - WEBHOOK_SERVER_PORT=${SERVER_PORT}
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
