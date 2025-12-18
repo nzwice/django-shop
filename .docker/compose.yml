@@ -86,6 +86,8 @@ services:
     depends_on:
       - rabbitmq
       - redis
+    deploy:
+      replicas: 2
 
   celery-flower:
     restart: unless-stopped
